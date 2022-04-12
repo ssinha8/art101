@@ -19,4 +19,5 @@ p {
 img {
   width: 400px;
   padding: 20px;
+  object-fit: contain;
 }
