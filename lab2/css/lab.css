@@ -15,3 +15,8 @@ p {
   width: 500px;
   min-height: 400px;
 }
+
+img {
+  width: 400px;
+  padding: 20px;
+}
