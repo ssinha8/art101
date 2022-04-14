@@ -1,9 +1,41 @@
+body {
+  background-color: #5B9279;
+}
+
 h1 {
-  color: gray;
+  text-align: center;
+  color: #12130F;
   font-size: 250%;
 }
 
 p {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 30px;
+  text-align: center;
+  color: #12130F;
   text-indent: 25px;
   font-family: "Times New Roman";
+}
+
+img {
+  border: 5px solid #12130F;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#content {
+  background-color: #EAE6E5;
+  border: 5px solid #12130F;
+  padding: 15px;
+  width: 1200px;
+  min-height: 400px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.info {
+  padding-left: 100px;
 }
