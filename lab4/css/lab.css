@@ -1,0 +1,17 @@
+h1 {
+  color: blue;
+  font-size: 250%;
+}
+
+p {
+  text-indent: 25px;
+  font-family: "Times New Roman";
+}
+
+#content {
+  background-color: #c9fcff;
+  padding: 15px;
+  border: 2px dotted black;
+  width: 800px;
+  min-height: 400px;
+}
