@@ -1,0 +1,53 @@
+body {
+  background-color: #429EA6;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Tahoma";
+  color: #153B50;
+  font-size: 230%;
+  margin-bottom: 100px;
+}
+
+h2 {
+  margin-left: 50px;
+  font-family: "Tahoma";
+  color: #153B50;
+  font-size: 150%;
+}
+
+h3 {
+  margin-left: 100px;
+  font-family: "Tahoma";
+  color: #153B50;
+  font-size: 120%;
+}
+
+p {
+  margin-left: 40px;
+  font-family: "Tahoma";
+  font-size: 125%;
+  color: #ECEBE4;
+  margin-bottom: 40px;
+}
+
+img {
+  float: right;
+  object-fit: contain;
+}
+
+#content {
+  background-color: #CC998D;
+  padding: 15px;
+  border: 20px solid #153B50;
+  width: 1600px;
+  min-height: 800px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.output {
+  margin-left: 150px;
+  color: #ECEBE4;
+}
