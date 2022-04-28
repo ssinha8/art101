@@ -12,12 +12,12 @@
 function sortName() {
 
   // take in user input
-  let userName = window.prompt("Enter your name");
+  let userName = window.prompt('Enter your name');
 
-  let nameSorted = userName.toLower().split("").sort().join("");
+  let nameSorted = userName.split('').sort().join('');
   return nameSorted;
 }
 
 
 // output
-document.writeln("Your sorted name: ", sortName(), "</br>");
+document.writeln('Your sorted name: ', sortName(), '</br>');
