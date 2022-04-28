@@ -15,6 +15,7 @@ function sortName() {
   let userName = window.prompt('Enter your name');
 
   let nameSorted = userName.split('').sort().join('');
+  console.log("sorted name", nameSorted);
   return nameSorted;
 }
 
