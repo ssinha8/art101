@@ -1,27 +1,27 @@
 /**
  * Author:    Shloak Sinha
- * Created:   05/03/2022
+ * Created:   05/04/2022
  *
  * School: UCSC
  * Class: Art101
  **/
 
-// function that adds 5 to the numeric argument
- function addFive(x) {
-   return x + 5;
- }
+// using getElementById() to get the output id from the index file
+ let outputEl = document.getElementById('output');
 
- //test function
- console.log("Output of function with 10 as input: ", addFive(10));
- console.log("Output of function with 3 as input: ", addFive(3));
+ // creating a new element assigning it to new1El and changing its HTML
+ let new1El = document.createElement('p');
+ new1El.innerHTML = 'Never gonna give you up!';
 
- num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
- console.log("My number array: ", num);
+ // creating another new element and assigning it to new2El and changing its HTML
+ let new2El = document.createElement('p');
+ new2El.innerHTML = 'Never gonna let you down!';
 
- console.log("Test of adding five to the numbers in array: ", num.map(addFive));
+ // appending new1El and new2El to outputEl
+ outputEl.appendChild(new1El);
+ outputEl.appendChild(new2El);
 
- var result = num.map(function(x) {
-   return x ** 2;
- });
-
- console.log("Squares of the array: ", result);
+ //editing the css using JS
+ document.getElementById('challenge').style.color = '#ECEBE4';
+ document.getElementById('problems').style.color = '#ECEBE4';
+ document.getElementById('results').style.color = '#ECEBE4';

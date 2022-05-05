@@ -28,8 +28,13 @@ p {
   margin-left: 40px;
   font-family: "Tahoma";
   font-size: 125%;
-  color: #ECEBE4;
+  color: black;
   margin-bottom: 40px;
+}
+
+img {
+  float: right;
+  object-fit: contain;
 }
 
 #output {
