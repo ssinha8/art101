@@ -37,7 +37,9 @@ button.addEventListener("click", function() {
   var name = document.getElementById("input").value;
   var house = sortingHat(name);
 
-  var newText =  "<p>The Sorting Hat has sorted you into " + house + "</p>";
-
-  document.getElementById('output').prepend(newText);
+  // var newText =  "The Sorting Hat has sorted you into " + house;
+  //
+  // document.getElementById('output').prepend(newText);
+  
+  $('#' + house).toggleClass("hidden");
 })
