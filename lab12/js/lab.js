@@ -37,9 +37,13 @@ button.addEventListener("click", function() {
   var name = document.getElementById("input").value;
   var house = sortingHat(name);
 
+  $('#Gryffindor').addClass("hidden");
+  $('#Ravenclaw').addClass("hidden");
+  $('#Slytherin').addClass("hidden");
+  $('#Hufflepuff').addClass("hidden");
+
   // var newText =  "The Sorting Hat has sorted you into " + house;
-  //
   // document.getElementById('output').prepend(newText);
-  
-  $('#' + house).toggleClass("hidden");
+
+  $('#' + house).removeClass("hidden");
 })
