@@ -13,15 +13,11 @@
 function FizzBuzz() {
 
   var outputStr = '';
-  $("#output").append("<div class = row></div>");
 
   for (var num = 1; num < 201; num++) {
 
     outputStr = '';
 
-    if (num % 25 == 1) {
-      $(".row").append("<div class = column>");
-    }
     if (num % 3 == 0) {
       outputStr += "Fizz";
     }
@@ -36,9 +32,6 @@ function FizzBuzz() {
       $(".row").append("<p1>" + num.toString() + " - " + outputStr + "!</p1><br>");
     } else {
       $(".row").append("<p1>" + num.toString() + "</p1><br>");
-    }
-    if (num % 25 == 0) {
-      $(".row").append("</div>");
     }
   }
 }
