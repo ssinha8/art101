@@ -29,9 +29,9 @@ function FizzBuzz() {
     }
 
     if (outputStr != "") {
-      $(".row").append("<p1>" + num.toString() + " - " + outputStr + "!</p1><br>");
+      $("#output").append("<p1>" + num.toString() + " - " + outputStr + "!</p1><br>");
     } else {
-      $(".row").append("<p1>" + num.toString() + "</p1><br>");
+      $("#output").append("<p1>" + num.toString() + "</p1><br>");
     }
   }
 }
