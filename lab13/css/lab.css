@@ -47,11 +47,3 @@ p {
   border: 5px solid black;
   margin: auto;
 }
-
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 12.5%;
-}
