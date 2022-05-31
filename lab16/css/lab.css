@@ -1,0 +1,49 @@
+body {
+  background-color: #182825;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Tahoma";
+  color: #182825;
+  font-size: 230%;
+  margin-bottom: 100px;
+}
+
+h2 {
+  margin-left: 50px;
+  font-family: "Tahoma";
+  color: #182825;
+  font-size: 150%;
+}
+
+h3 {
+  margin-left: 100px;
+  font-family: "Tahoma";
+  color: #182825;
+  font-size: 120%;
+}
+
+p {
+  margin-left: 40px;
+  font-family: "Tahoma";
+  font-size: 125%;
+  color: #182825;
+  margin-bottom: 40px;
+}
+
+#content {
+  background-color: #BFD5E2;
+  padding: 15px;
+  border: 20px solid #6D8EA0;
+  width: 1600px;
+  min-height: 800px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#output {
+  padding: 20px;
+  border: 5px solid black;
+  margin: auto;
+}
